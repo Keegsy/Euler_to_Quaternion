@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+
+
+<!-- Run listen -->
+
+<node name="listen_node" pkg="challenge" type="listen.py" output="screen"  launch-prefix="gnome-terminal -- "/>/>
+
+<!-- Run talk -->
+
+<node name="talk_node" pkg="challenge" type="talk.py" output="screen" />/>
+
+</launch>
